@@ -17,8 +17,8 @@ kubectl get nodes
 ls -la
 
 cd $FOLDER
-kubectl create service.yaml
-kubectl create deployment.yaml
+kubectl create -f service.yaml
+kubectl create -f deployment.yaml
 
 
 rm /tmp/config
